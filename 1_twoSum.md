@@ -2,7 +2,7 @@
 
 Run a loop to get index and corresponding number in the array, then put the index into an empty array.
 
-'''
+``` python
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -16,4 +16,4 @@ class Solution(object):
                 return [dic[num], i]
             else:
                 dic[target-num] = i
-'''
+```
