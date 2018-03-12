@@ -1,9 +1,9 @@
 # #3 Longest Substring Without Repeating Characters
 
-此题最终目的在于判断原最长子数列和现最长子序列哪个更加长，因此要找到原最长子序列的末尾--res以及
-现最长子序列的开头--start。
+此题最终目的在于判断原最长子数列和现最长子序列哪个更加长，因此要找到原最长子序列的末尾--res以及现最长子序列的开头--start。
 
 res为开头到出现重复字符的长度
+
 start为重复字符的后一位
 
 ``` python
