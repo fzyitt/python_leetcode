@@ -1,6 +1,7 @@
 # #4 Median of Two Sorted Arrays
 
 题目中要求算法复杂度为O(log(min(m,n)))
+
 我自己的解法使用sort排序，平均算法复杂度为O(nlog(n))
 
 ``` python
